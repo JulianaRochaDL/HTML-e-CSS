@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas:
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas:
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+
+            Medidas utilizadas pela W3C: px e em.
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+
+            /* lighter normal bold bolder*/
+            /* weight = peso, width = largura, height = altura */
+        }
+
+        h1 {
+           
+            /*shorthand font
+
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style:italic;
+
+            font-style -> font-weight -> font-size -> font-family */
+
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'work sans';
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, ullam quam. Aliquid esse asperiores, consequuntur ratione minima praesentium vero, assumenda magni harum numquam reprehenderit labore corrupti doloremque id quos nobis!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ipsum ullam nemo aliquid rerum eveniet facilis necessitatibus laboriosam vel, numquam quae officiis beatae ex nesciunt iste ratione, sequi accusantium nostrum?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A obcaecati ea nesciunt, eveniet molestias sequi neque minus similique? Molestiae earum saepe enim pariatur fugit voluptatibus quo rerum rem, accusamus illo.</p>    
+</body>
+</html>
